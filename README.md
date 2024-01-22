@@ -36,6 +36,9 @@ The project structure is organized as follows:
   - Parallel Computing Toolbox Version 7.8 (R2023a) (https://it.mathworks.com/products/parallel-computing.html)
 - Jupyter Notebook
   - Pandas
+  - Tensorflow
+  - Keras
+  - Kerastuner
 
 ## Setup [[to ToC]](#table-of-contents)
 To set up the project, follow these steps:
