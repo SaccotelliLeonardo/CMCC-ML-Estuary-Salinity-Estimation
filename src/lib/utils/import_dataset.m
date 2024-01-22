@@ -22,6 +22,7 @@ opts = spreadsheetImportOptions("NumVariables", nVars);
 % Specify sheet and range
 opts.DataRange = dataRange;
 opts.Sheet = sheetName;
+opts.VariableNamingRule = "preserve";
 
 % Specify column names and types
 opts.VariableNames = varNames;

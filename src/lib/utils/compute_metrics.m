@@ -21,6 +21,9 @@ function [results] = compute_metrics(obs, pred, algorithm_names, results)
         pred = table2array(pred);
     end
     
+    obs = obs(~isnan(obs));
+    pred = pred(~isnan(pred));
+
     results(algorithm_names,'RMSE') = {computeRMSE(obs, pred)}; 
     results(algorithm_names,'NRMSE') = {computeNRMSE(obs, pred)}; 
     results(algorithm_names,'MAE') = {computeMAE(obs, pred)}; 

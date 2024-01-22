@@ -72,7 +72,7 @@ response = "Sul";
 
 % Set maxObjectiveEvaluations as maximum number of objective functions to
 % be evaluated in the optimization process
-max_objective_evaluations = 1;
+max_objective_evaluations = 150;
 
 % Set k to be used in the k-fold cross validation procedure
 k = 5; 
