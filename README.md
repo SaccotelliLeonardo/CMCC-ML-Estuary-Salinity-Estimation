@@ -30,9 +30,12 @@ The project structure is organized as follows:
 - `reports` folder contains a brief reports of the analysis with graphics and figures.
 
 ## Requirements [[to ToC]](#table-of-contents)
-- MATLAB Version 9.14 (R2023a) (https://it.mathworks.com/products/matlab.html)
-- Statistics and Machine Learning Toolbox Version 12.5 (R2023a) (https://it.mathworks.com/products/statistics.html)
-- Parallel Computing Toolbox Version 7.8 (R2023a) (https://it.mathworks.com/products/parallel-computing.html)
+- Matlab
+  - MATLAB Version 9.14 (R2023a) (https://it.mathworks.com/products/matlab.html)
+  - Statistics and Machine Learning Toolbox Version 12.5 (R2023a) (https://it.mathworks.com/products/statistics.html)
+  - Parallel Computing Toolbox Version 7.8 (R2023a) (https://it.mathworks.com/products/parallel-computing.html)
+- Jupyter Notebook
+  - Pandas
 
 ## Setup [[to ToC]](#table-of-contents)
 To set up the project, follow these steps:
