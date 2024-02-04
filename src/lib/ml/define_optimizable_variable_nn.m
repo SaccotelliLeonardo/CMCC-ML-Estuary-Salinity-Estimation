@@ -1,8 +1,6 @@
 function [params_settings] = define_optimizable_variable_nn(predictors, response, ...
     n_layers, n_units_in_layer, activations, standardize, lambda, layer_weight, layer_bias)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
-
+	
 %% Set parameters to be optimized during the auto-tuning procedure
 params_settings = hyperparameters("fitrnet", predictors, response);
 

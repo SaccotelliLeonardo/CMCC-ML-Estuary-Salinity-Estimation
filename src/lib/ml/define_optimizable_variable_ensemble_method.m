@@ -1,7 +1,5 @@
 function [params_settings] = define_optimizable_variable_ensemble_method( predictors, response, ...
     num_learn_cycles, learn_rate, min_leaf_size, max_num_splits, num_var_to_sample)
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
 
 %% Set parameters to be optimized during the auto-tuning procedure
 params_settings = hyperparameters("fitrensemble", predictors, response,'Tree');
